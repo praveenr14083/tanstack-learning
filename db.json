@@ -1,0 +1,446 @@
+{
+  "users": [
+    {
+      "id": 2,
+      "name": "Ervin Howell",
+      "username": "ervin.h",
+      "email": "ervin.howell@example.com",
+      "address": {
+        "street": "Victor Plains",
+        "suite": "Suite 879",
+        "city": "Wisokyburgh",
+        "zipcode": "90566",
+        "geo": {
+          "lat": "-43.9509",
+          "lng": "-34.4618"
+        }
+      },
+      "phone": "1-202-555-0173",
+      "website": "ervin.net",
+      "company": {
+        "name": "Howell LLC",
+        "catchPhrase": "Proactive didactic contingency",
+        "bs": "synergize scalable supply-chains"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Clementine Bauch",
+      "username": "clem.bauch",
+      "email": "clementine.bauch@example.com",
+      "address": {
+        "street": "Douglas Extension",
+        "suite": "Suite 847",
+        "city": "McKenziehaven",
+        "zipcode": "59590",
+        "geo": {
+          "lat": "-68.6102",
+          "lng": "-47.0653"
+        }
+      },
+      "phone": "1-202-555-0142",
+      "website": "clementine.info",
+      "company": {
+        "name": "Bauch Inc",
+        "catchPhrase": "Face to face bifurcated interface",
+        "bs": "e-enable strategic applications"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Patricia Lebsack",
+      "username": "patty.l",
+      "email": "patricia.lebsack@example.com",
+      "address": {
+        "street": "Hoeger Mall",
+        "suite": "Apt. 692",
+        "city": "South Elvis",
+        "zipcode": "53919",
+        "geo": {
+          "lat": "29.4572",
+          "lng": "-164.2990"
+        }
+      },
+      "phone": "1-202-555-0199",
+      "website": "patricia.biz",
+      "company": {
+        "name": "Lebsack - Corkery",
+        "catchPhrase": "Multi-tiered zero tolerance productivity",
+        "bs": "transition cutting-edge web services"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Chelsey Dietrich",
+      "username": "chelsey.d",
+      "email": "chelsey.d@example.com",
+      "address": {
+        "street": "Skiles Walks",
+        "suite": "Suite 351",
+        "city": "Roscoeview",
+        "zipcode": "33263",
+        "geo": {
+          "lat": "-31.8129",
+          "lng": "62.5342"
+        }
+      },
+      "phone": "1-202-555-0139",
+      "website": "chelsey.info",
+      "company": {
+        "name": "Dietrich Ltd",
+        "catchPhrase": "User-centric fault-tolerant solution",
+        "bs": "revolutionize end-to-end systems"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Dennis Schulist",
+      "username": "dennis.s",
+      "email": "dennis.schulist@example.com",
+      "address": {
+        "street": "Norberto Crossing",
+        "suite": "Apt. 950",
+        "city": "South Christy",
+        "zipcode": "23505",
+        "geo": {
+          "lat": "-71.4197",
+          "lng": "71.7478"
+        }
+      },
+      "phone": "1-202-555-0188",
+      "website": "dennis.org",
+      "company": {
+        "name": "Schulist Corp",
+        "catchPhrase": "Synchronised bottom-line interface",
+        "bs": "e-enable innovative applications"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Kurtis Weissnat",
+      "username": "kurtis.w",
+      "email": "kurtis.weissnat@example.com",
+      "address": {
+        "street": "Rex Trail",
+        "suite": "Suite 280",
+        "city": "Howemouth",
+        "zipcode": "58804",
+        "geo": {
+          "lat": "24.8918",
+          "lng": "21.8984"
+        }
+      },
+      "phone": "1-202-555-0158",
+      "website": "kurtis.io",
+      "company": {
+        "name": "Weissnat Group",
+        "catchPhrase": "Configurable multimedia task-force",
+        "bs": "generate enterprise e-tailers"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Nicholas Runolfsdottir",
+      "username": "nicholas.r",
+      "email": "nicholas.run@example.com",
+      "address": {
+        "street": "Ellsworth Summit",
+        "suite": "Suite 729",
+        "city": "Aliyaview",
+        "zipcode": "45169",
+        "geo": {
+          "lat": "-14.3990",
+          "lng": "-120.7677"
+        }
+      },
+      "phone": "1-202-555-0166",
+      "website": "nicholas.com",
+      "company": {
+        "name": "Runolfsdottir PLC",
+        "catchPhrase": "Implemented secondary concept",
+        "bs": "e-enable extensible e-tailers"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Glenna Reichert",
+      "username": "glenna.r",
+      "email": "glenna.r@example.com",
+      "address": {
+        "street": "Dayna Park",
+        "suite": "Suite 449",
+        "city": "Bartholomebury",
+        "zipcode": "76495",
+        "geo": {
+          "lat": "24.6463",
+          "lng": "-168.8889"
+        }
+      },
+      "phone": "1-202-555-0114",
+      "website": "glenna.com",
+      "company": {
+        "name": "Reichert and Sons",
+        "catchPhrase": "Switchable contextually-based project",
+        "bs": "aggregate real-time technologies"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Clementina DuBuque",
+      "username": "clementina.d",
+      "email": "clementina.d@example.com",
+      "address": {
+        "street": "Kattie Turnpike",
+        "suite": "Suite 198",
+        "city": "Lebsackbury",
+        "zipcode": "31428",
+        "geo": {
+          "lat": "-38.2386",
+          "lng": "57.2232"
+        }
+      },
+      "phone": "1-202-555-0149",
+      "website": "clementina.net",
+      "company": {
+        "name": "DuBuque LLC",
+        "catchPhrase": "Centralized empowering task-force",
+        "bs": "target end-to-end models"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Jason Meyers",
+      "username": "jason.m",
+      "email": "jason.meyers@example.com",
+      "address": {
+        "street": "Hollow Ridge",
+        "suite": "Apt. 512",
+        "city": "Lakeview",
+        "zipcode": "84122",
+        "geo": {
+          "lat": "42.6612",
+          "lng": "-73.9911"
+        }
+      },
+      "phone": "1-202-555-0193",
+      "website": "jason.dev",
+      "company": {
+        "name": "Meyers Tech",
+        "catchPhrase": "Robust nationwide architecture",
+        "bs": "scale dynamic infrastructures"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Sophia Turner",
+      "username": "sophia.t",
+      "email": "sophia.turner@example.com",
+      "address": {
+        "street": "Willow Lane",
+        "suite": "Suite 200",
+        "city": "Brookhaven",
+        "zipcode": "55143",
+        "geo": {
+          "lat": "45.2213",
+          "lng": "-88.1873"
+        }
+      },
+      "phone": "1-202-555-0131",
+      "website": "sophia.tech",
+      "company": {
+        "name": "Turner Co",
+        "catchPhrase": "Next-gen enterprise platform",
+        "bs": "innovate mission-critical workflows"
+      }
+    },
+    {
+      "id": 13,
+      "name": "Michael Bates",
+      "username": "mike.b",
+      "email": "michael.bates@example.com",
+      "address": {
+        "street": "Orchard Street",
+        "suite": "Apt. 901",
+        "city": "Clayburgh",
+        "zipcode": "32311",
+        "geo": {
+          "lat": "36.6702",
+          "lng": "-112.5511"
+        }
+      },
+      "phone": "1-202-555-0191",
+      "website": "michaelbates.com",
+      "company": {
+        "name": "Bates Enterprise",
+        "catchPhrase": "High-performance distributed matrix",
+        "bs": "streamline holistic functionalities"
+      }
+    },
+    {
+      "id": 14,
+      "name": "Emily Carter",
+      "username": "emily.c",
+      "email": "emily.carter@example.com",
+      "address": {
+        "street": "Cedar Trail",
+        "suite": "Suite 150",
+        "city": "Northfield",
+        "zipcode": "55923",
+        "geo": {
+          "lat": "40.5511",
+          "lng": "-102.9913"
+        }
+      },
+      "phone": "1-202-555-0152",
+      "website": "emilycarter.net",
+      "company": {
+        "name": "Carter Robotics",
+        "catchPhrase": "Enhanced real-time analytics",
+        "bs": "optimize seamless supply-chains"
+      }
+    },
+    {
+      "id": 15,
+      "name": "Oliver Stevens",
+      "username": "oliver.s",
+      "email": "oliver.stevens@example.com",
+      "address": {
+        "street": "Pine Drive",
+        "suite": "Apt. 421",
+        "city": "Millport",
+        "zipcode": "77531",
+        "geo": {
+          "lat": "37.1413",
+          "lng": "-99.2314"
+        }
+      },
+      "phone": "1-202-555-0102",
+      "website": "oliverstevens.io",
+      "company": {
+        "name": "Stevens Solutions",
+        "catchPhrase": "Integrated adaptive framework",
+        "bs": "redefine collaborative paradigms"
+      }
+    },
+    {
+      "id": 16,
+      "name": "Ava Mitchell",
+      "username": "ava.m",
+      "email": "ava.m@example.com",
+      "address": {
+        "street": "Elm Heights",
+        "suite": "Apt. 112",
+        "city": "Riverview",
+        "zipcode": "74421",
+        "geo": {
+          "lat": "41.1103",
+          "lng": "-81.9923"
+        }
+      },
+      "phone": "1-202-555-0162",
+      "website": "avam.dev",
+      "company": {
+        "name": "Mitchell Dynamics",
+        "catchPhrase": "Distributed multi-cloud model",
+        "bs": "empower scalable bandwidth"
+      }
+    },
+    {
+      "id": 17,
+      "name": "Noah Williams",
+      "username": "noah.w",
+      "email": "noah.w@example.com",
+      "address": {
+        "street": "Birch Lane",
+        "suite": "Suite 300",
+        "city": "Stonehaven",
+        "zipcode": "60921",
+        "geo": {
+          "lat": "32.8843",
+          "lng": "-115.5512"
+        }
+      },
+      "phone": "1-202-555-0198",
+      "website": "noahwill.com",
+      "company": {
+        "name": "Williams Robotics",
+        "catchPhrase": "Scalable digital ecosystems",
+        "bs": "deliver frictionless workflows"
+      }
+    },
+    {
+      "id": 18,
+      "name": "Isabella Murphy",
+      "username": "isa.m",
+      "email": "isabella.m@example.com",
+      "address": {
+        "street": "Sunset Road",
+        "suite": "Suite 817",
+        "city": "Westdale",
+        "zipcode": "88122",
+        "geo": {
+          "lat": "29.8821",
+          "lng": "-90.7711"
+        }
+      },
+      "phone": "1-202-555-0181",
+      "website": "isabellam.dev",
+      "company": {
+        "name": "Murphy Labs",
+        "catchPhrase": "AI-powered decision engines",
+        "bs": "maximize user-centric synergies"
+      }
+    },
+    {
+      "id": 19,
+      "name": "Liam Rogers",
+      "username": "liam.r",
+      "email": "liam.r@example.com",
+      "address": {
+        "street": "Riverbrook",
+        "suite": "Apt. 220",
+        "city": "Lakehills",
+        "zipcode": "77123",
+        "geo": {
+          "lat": "38.3312",
+          "lng": "-109.2312"
+        }
+      },
+      "phone": "1-202-555-0141",
+      "website": "liamrogers.net",
+      "company": {
+        "name": "Rogers Global",
+        "catchPhrase": "Modular hybrid cloud",
+        "bs": "transform global infrastructures"
+      }
+    },
+    {
+      "id": 20,
+      "name": "Ella Brooks",
+      "username": "ella.b",
+      "email": "ella.b@example.com",
+      "address": {
+        "street": "Autumn Ridge",
+        "suite": "Suite 551",
+        "city": "Newhaven",
+        "zipcode": "66211",
+        "geo": {
+          "lat": "41.5521",
+          "lng": "-90.3311"
+        }
+      },
+      "phone": "1-202-555-0156",
+      "website": "ellabrooks.io",
+      "company": {
+        "name": "Brooks Systems",
+        "catchPhrase": "Hyper-converged innovation",
+        "bs": "expand intuitive technologies"
+      }
+    },
+    {
+      "name": "Praveen",
+      "email": "demo@gmail.com",
+      "id": 21
+    }
+  ]
+}

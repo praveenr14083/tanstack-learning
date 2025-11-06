@@ -1,5 +1,5 @@
-import axios from "axios";
 import React, { useEffect, useState } from "react";
+import { api } from "../../api/axios";
 
 export default function RegularFetchPage() {
   const [data, setData] = useState([]);
@@ -8,9 +8,7 @@ export default function RegularFetchPage() {
 
   const getUsers = async () => {
     try {
-      const { data } = await axios.get(
-        "https://jsonplaceholder.typicode.com/users"
-      );
+      const { data } = await api.get("/users");
 
       if (!data) throw new Error("Failed to fetch");
       setData(data);

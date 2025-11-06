@@ -7,6 +7,7 @@ import RootLayout from "./layouts/RootLayout";
 import TanstackQueryClick from "./pages/tanstack-query-click/TanstackQueryClick";
 import TanstackQueryById from "./pages/tanstack-query-by-id/TanstackQueryById";
 import PagenationPage from "./pages/pagenation/PagenationPage";
+import CrudPage from "./pages/crud/CrudPage";
 export default function App() {
   return (
     <BrowserRouter>
@@ -25,6 +26,7 @@ export default function App() {
           />
 
           <Route path="/pagenation" element={<PagenationPage />} />
+          <Route path="/crud" element={<CrudPage />} />
         </Routes>
       </RootLayout>
     </BrowserRouter>

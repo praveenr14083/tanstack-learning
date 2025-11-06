@@ -1,12 +1,10 @@
 import React from "react";
-import axios from "axios";
 import { useQuery } from "@tanstack/react-query";
 import { Link } from "react-router-dom";
+import { api } from "../../api/axios";
 // ✅ Fetch function
 const fetchUsers = async () => {
-  const { data } = await axios.get(
-    "https://jsonplaceholder.typicode.com/users"
-  );
+  const { data } = await api.get("/users");
   return data;
 };
 export default function TanstackFetchPage() {

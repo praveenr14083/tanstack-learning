@@ -1,13 +1,11 @@
 import React from "react";
-import axios from "axios";
 import { useQuery } from "@tanstack/react-query";
+import { api } from "../../api/axios";
 
 export default function TanstackQueryClick() {
   // ✅ Fetch function
   const fetchUsers = async () => {
-    const { data } = await axios.get(
-      "https://jsonplaceholder.typicode.com/users"
-    );
+    const { data } = await api.get("/users");
     return data;
   };
 

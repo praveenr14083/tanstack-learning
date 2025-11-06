@@ -1,10 +1,10 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
-import axios from "axios";
+import { api } from "../../api/axios";
 const fetchUser = async (userId) => {
-  const { data } = await axios.get(
-    `https://jsonplaceholder.typicode.com/users/${userId}`
+  const { data } = await api.get(
+    `/users/${userId}`
   );
   return data;
 };

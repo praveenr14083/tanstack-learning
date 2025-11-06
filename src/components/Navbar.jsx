@@ -22,6 +22,10 @@ const navItems = [
     title: "Pagenation",
     to: "/pagenation",
   },
+  {
+    title: "CRUD",
+    to: "/crud",
+  },
 ];
 
 export default function Navbar() {

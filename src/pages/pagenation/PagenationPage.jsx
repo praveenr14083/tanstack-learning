@@ -1,21 +1,19 @@
 import React, { useState } from "react";
-import axios from "axios";
 import { useQuery } from "@tanstack/react-query";
+import { api } from "../../api/axios";
 
 export default function PaginationPage() {
   const [page, setPage] = useState(1);
   const limit = 5; // items per page
 
   // Total users in API (jsonplaceholder has 10 users)
-  const totalItems = 10;
+  const totalItems = 20;
   const totalPages = Math.ceil(totalItems / limit);
 
   // ✅ Fetch function
   const fetchUsers = async ({ queryKey }) => {
     const [_key, page] = queryKey;
-    const res = await axios.get(
-      `https://jsonplaceholder.typicode.com/users?_page=${page}&_limit=${limit}`
-    );
+    const res = await api.get(`/users?_page=${page}&_limit=${limit}`);
     return res.data;
   };
 
